@@ -6,26 +6,22 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-hangouts = Hangout.create(
+trips = Trip.create(
   [
     {
-      date: DateTime.now,
-      city: "A new cake recipe",
-      activity: "Made of chocolate",
+      city: "Oaxaca",
+      country: "Mexico",
+      month: "October",
+      todo: "Visit the Monte Alban archaeological site.",
     },
     {
-      date: DateTime.now,
-      city: "A twitter client idea",
-      activity: "Only for replying to mentions and DMs",
+      city: "Hong Kong",
+      month: "March",
+      todo: "Go to an independent art show.",
     },
     {
-      date: DateTime.now,
-      city: "A novel set in Italy",
-      activity: "A mafia crime drama starring Berlusconi",
+      city: "Paris",
+      month: "September",
+      todo: "Visit the Louvre",
     },
-    {
-      date: DateTime.now,
-      city: "Card game design",
-      activity: "Like Uno but involves drinking",
-    }
   ])

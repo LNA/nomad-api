@@ -1,2 +1,0 @@
-class Hangout < ApplicationRecord
-end
