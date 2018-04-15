@@ -10,7 +10,6 @@ trips = Trip.create(
   [
     {
       city: "Oaxaca",
-      country: "Mexico",
       month: "October",
       todo: "Visit the Monte Alban archaeological site.",
     },
